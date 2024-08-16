@@ -13,5 +13,5 @@ Requirements:
 2. RAG: pip install langchain langchain-community sentence_transformers faiss-cpu -U langchain-huggingface
 3. Evaluation: pip install nltk sacrebleu rouge-score bert-score 
 
-Input file: 
+Note: 
 Input file used in the main code is not provided. 
