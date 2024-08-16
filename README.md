@@ -4,9 +4,9 @@
 ## Overview
 
 This project generate impression based on the provided procedure name and findings of a radiology report. The framework consists of three specialized agents: 
-(1) Report retriever: a retrieval agent that searches for similar reports from an external database.
-(2) Radiologist: a generation agent that utilizes LLMs to generate and update the impression.
-(3) Reviewer: a review agent that assesses the consistency between the generated impression and provided findings.
+- Report retriever: a retrieval agent that searches for similar reports from an external database.
+- Radiologist: a generation agent that utilizes LLMs to generate and update the impression.
+- Reviewer: a review agent that assesses the consistency between the generated impression and provided findings.
 
 ![image](https://github.com/user-attachments/assets/3f53a0b0-089d-430a-80f0-6528e6fede53)
 
@@ -22,11 +22,11 @@ This project generate impression based on the provided procedure name and findin
 The input file required for the main code is not provided in this repository. The file includes the following columns:
 
 - ID: Index
-- ACC: Accession number
-- modality: Modality used for the imaging study
-- ProcedureNM: Procedure name
-- FINDINGS: Findings section
-- IMPRESSION_CLEAN: Cleaned impression section
-- 
+- ACC: accession number
+- modality: modality used for the imaging study
+- ProcedureNM: procedure name
+- FINDINGS: findings section
+- IMPRESSION_CLEAN: cleaned impression section
+  
 Notes:
 ACC and modality are used as metadata in the vector database. However, they are not essential for generating the impression. If desired, the code can be modified to exclude these columns.
