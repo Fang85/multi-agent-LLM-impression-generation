@@ -13,5 +13,13 @@ Requirements:
 2. RAG: pip install langchain langchain-community sentence_transformers faiss-cpu -U langchain-huggingface
 3. Evaluation: pip install nltk sacrebleu rouge-score bert-score 
 
-Note: 
-Input file used in the main code is not provided. 
+Input file:
+The input file required for the main code is not provided in this repository. The file includes the following columns:
+ID: Index
+ACC: Accession number
+modality: Modality used for the imaging study
+ProcedureNM: Procedure name
+FINDINGS: Findings section
+IMPRESSION_CLEAN: Cleaned impression section
+Notes:
+ACC and modality are used as metadata in the vector database. However, they are not essential for generating the impression. If desired, the code can be modified to exclude these columns.
