@@ -5,7 +5,7 @@
 
 This project generate impression based on the provided procedure name and findings of a radiology report. The framework consists of three specialized agents: 
 - Report retriever: a retrieval agent that searches for similar reports from an external database.
-- Radiologist: a generation agent that utilizes LLMs to generate and update the impression.
+- Radiologist: a generation agent that utilizes LLMs to generate or update the impression.
 - Reviewer: a review agent that assesses the consistency between the generated impression and provided findings.
 
 ![image](https://github.com/user-attachments/assets/3f53a0b0-089d-430a-80f0-6528e6fede53)
