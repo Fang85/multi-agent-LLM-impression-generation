@@ -2,6 +2,7 @@
 Impression Generation in Radiology Reports through a Multi-Agent System
 
 Overview:
+
 This project generate impression based on the provided procedure name and findings of a radiology report. The framework consists of three specialized agents: (1) a retrieval agent that searches for similar reports from an external resource, (2) a generation agent that utilizes LLMs to generate the impression, and (3) a review agent that assesses the accuracy of the generated impression.
 
 ![image](https://github.com/user-attachments/assets/3f53a0b0-089d-430a-80f0-6528e6fede53)
