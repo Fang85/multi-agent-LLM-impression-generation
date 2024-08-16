@@ -14,6 +14,7 @@ Requirements:
 3. Evaluation: pip install nltk sacrebleu rouge-score bert-score 
 
 Input file:
+
 The input file required for the main code is not provided in this repository. The file includes the following columns:
 ID: Index
 ACC: Accession number
