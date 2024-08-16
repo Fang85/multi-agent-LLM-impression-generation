@@ -13,7 +13,7 @@ This project generate impression based on the provided procedure name and findin
 
 ## Requirements
 
-1. LLM: Deployed using Ollama (see https://github.com/ollama/ollama). In the main code, llama3:70b is used.
+1. LLM: Deployed using [Ollama](https://github.com/ollama/ollama). In the main code, `llama3:70b` is used.
 2. RAG: pip install langchain langchain-community sentence_transformers faiss-cpu -U langchain-huggingface
 3. Evaluation: pip install nltk sacrebleu rouge-score bert-score 
 
